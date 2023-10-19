@@ -18,7 +18,11 @@ variable "parameters" {
     { name = "dev.backend.app_version", value = "1.0.0", type = "String" },
 
     ## Common env
-    { name = "jenkins_password", value = "admin123", type = "String" }
+    { name = "jenkins_password", value = "admin123", type = "String" },
+    { name = "artifactory_username", value = "admin", type = "String" },
+    { name = "artifactory_password", value = "Admin123", type = "String" },
+    { name = "ssh_username", value = "centos", type = "String" },
+    { name = "ssh_password", value = "DevOps321", type = "SecureString" },
   ]
 }
 
