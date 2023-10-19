@@ -14,6 +14,8 @@ variable "parameters" {
 
     ## Dev env
     { name = "dev.expense.frontend.backend_url", value = "http://backend-dev.sddevops18.online/", type = "String" },
+    { name = "dev.frontend.app_version", value = "1.0.1", type = "String" },
+    { name = "dev.backend.app_version", value = "1.0.0", type = "String" },
 
     ## Common env
     { name = "jenkins_password", value = "admin123", type = "String" }
