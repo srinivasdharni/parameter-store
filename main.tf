@@ -41,6 +41,7 @@ variable "parameters" {
     { name = "dev.roboshop.cart.REDIS_HOST", value = "redis-dev.sddevops18.online", type = "String" },
     { name = "dev.roboshop.cart.CATALOGUE_HOST", value = "catalogue-dev.sddevops18.online", type = "String" },
     { name = "dev.roboshop.cart.CATALOGUE_PORT", value = "8080", type = "String" },
+    { name = "dev.roboshop.cart.MONGO_ENDPOINT", value = "mongodb-dev.sddevops18.online", type = "String" },
   ]
 }
 
