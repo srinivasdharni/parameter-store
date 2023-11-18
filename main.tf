@@ -45,12 +45,19 @@ variable "parameters" {
     { name = "dev.roboshop.shipping.DB_HOST", value = "mysql-dev.sddevops18.online", type = "String" },
     { name = "dev.roboshop.shipping.DB_USER", value = "root", type = "String" },
     { name = "dev.roboshop.shipping.CART_ENDPOINT", value = "cart-dev.sddevops18.online:8080", type = "String" },
+    { name = "dev.roboshop.payment.CART_HOST", value = "cart-dev.sddevops18.online", type = "String" },
+    { name = "dev.roboshop.payment.CART_PORT", value = "8080", type = "String" },
+    { name = "dev.roboshop.payment.USER_HOST", value = "user-dev.sddevops18.online", type = "String" },
+    { name = "dev.roboshop.payment.USER_PORT", value = "8080", type = "String" },
+    { name = "dev.roboshop.payment.AMQP_HOST", value = "rabbitmq-dev.sddevops18.online", type = "String" },
+    { name = "dev.roboshop.payment.AMQP_USER", value = "roboshop", type = "String" },
     
     
     ## Passwords
     { name = "dev.roboshop.mysql.DB_PASS", value = "RoboShop@1", type = "SecureString" },
     { name = "dev.roboshop.shipping.DB_PASS", value = "RoboShop@1", type = "SecureString" },
     { name = "dev.roboshop.rabbitmq.MQ_PASS", value = "roboshop123", type = "SecureString" },
+    { name = "dev.roboshop.payment.AMQP_PASS", value = "roboshop123", type = "SecureString" },
   ]
 }
 
