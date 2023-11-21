@@ -61,6 +61,11 @@ variable "parameters" {
     { name = "dev.roboshop.rabbitmq.MQ_PASS", value = "roboshop123", type = "SecureString" },
     { name = "dev.roboshop.payment.AMQP_PASS", value = "roboshop123", type = "SecureString" },
     { name = "dev.roboshop.dispatch.AMQP_PASS", value = "roboshop123", type = "SecureString" },
+    
+    { name = "dev.roboshop.rds.master_username", value = "mysqlrdsadmin", type = "String" },
+    { name = "dev.roboshop.rds.master_password", value = "RoboShop1234", type = "SecureString" },
+    { name = "dev.roboshop.docdb.master_username", value = "docdbadmin", type = "String" },
+    { name = "dev.roboshop.docdb.master_password", value = "RoboShop1234", type = "SecureString" },
   ]
 }
 
